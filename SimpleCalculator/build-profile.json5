@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:/Users/杨晨宇/.ohos/config/openharmony/default_SimpleCalculator_jXUAzsKWU-tR1sNnRdtFSVSlgcnauCAeuALD_76FJsM=.cer",
+          "storePassword": "0000001B1B730CA8C483899698381EC394ECCB18EF6D29CE01B174FBC9ACAFB1FC4E57EA714B708A9EC322",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BAAA3789E601A327DD9AE70BAEDA74E44FC3C910200819AD8E362C48975BB38B7542197EB951762",
+          "profile": "C:/Users/杨晨宇/.ohos/config/openharmony/default_SimpleCalculator_jXUAzsKWU-tR1sNnRdtFSVSlgcnauCAeuALD_76FJsM=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/杨晨宇/.ohos/config/openharmony/default_SimpleCalculator_jXUAzsKWU-tR1sNnRdtFSVSlgcnauCAeuALD_76FJsM=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": 12,
+        "compatibleSdkVersion": 12,
+        "runtimeOS": "OpenHarmony",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

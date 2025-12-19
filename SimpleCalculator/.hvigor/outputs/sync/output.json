@@ -1,0 +1,120 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\build",
+    "DEPENDENCY_INFO": {},
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "targets": [
+        {
+          "name": "default",
+          "runtimeOS": "OpenHarmony"
+        }
+      ]
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\build",
+    "BUNDLE_NAME": "com.example.simplecalculator",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\build\\outputs\\default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator\\entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "material": {
+              "certpath": "C:/Users/杨晨宇/.ohos/config/openharmony/default_SimpleCalculator_jXUAzsKWU-tR1sNnRdtFSVSlgcnauCAeuALD_76FJsM=.cer",
+              "storePassword": "0000001B1B730CA8C483899698381EC394ECCB18EF6D29CE01B174FBC9ACAFB1FC4E57EA714B708A9EC322",
+              "keyAlias": "debugKey",
+              "keyPassword": "0000001BAAA3789E601A327DD9AE70BAEDA74E44FC3C910200819AD8E362C48975BB38B7542197EB951762",
+              "profile": "C:/Users/杨晨宇/.ohos/config/openharmony/default_SimpleCalculator_jXUAzsKWU-tR1sNnRdtFSVSlgcnauCAeuALD_76FJsM=.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "C:/Users/杨晨宇/.ohos/config/openharmony/default_SimpleCalculator_jXUAzsKWU-tR1sNnRdtFSVSlgcnauCAeuALD_76FJsM=.p12"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compileSdkVersion": 12,
+            "compatibleSdkVersion": 12,
+            "runtimeOS": "OpenHarmony"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "F:\\hongmeng\\code\\codelabs-master-ETSUI-SimpleCalculator\\ETSUI\\SimpleCalculator"
+    ]
+  },
+  "version": 1
+}
